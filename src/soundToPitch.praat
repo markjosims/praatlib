@@ -10,5 +10,5 @@ select file
 pitch = To Pitch... timeStep hertzMin hertzMax
 select pitch
 matrix = To Matrix
-pitchFilename$ = replace$ (filename$, ".wav", "PITCH.Matrix", 0)
+pitchFilename$ = replace$ (filename$, ".wav", ".Matrix", 0)
 Save as text file: pitchFilename$
